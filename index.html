@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Patrick Everaert</title>
+    <style>
+      /* Import font */
+      @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap');
+      /* Set font for body */
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      /* Style for title */
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+        color: #333;
+        font-weight: lighter;
+      }
+      /* Style for menu */
+      nav {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 20px 0;
+      }
+      nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #333;
+        text-decoration: none;
+      }
+      /* Style for container */
+      .container {
+        background-color: #f7f7f7;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 800px;
+      }
+      /* Style for image */
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+        margin: 20px;
+      }
+      /* Style for caption */
+      .caption {
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+        width: 100%;
+        max-width: 800px;
+        margin: 20px;
+        font-weight: lighter;
+        color: #333;
+      }
+      /* Media query for responsive design */
+      @media only screen and (max-width: 768px) {
+        .container {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Patrick Everaert</h1>
+      <nav>
+        <a href="#oeuvres">oeuvres</a>
+        <a href="#expositions">expositions</a>
+        <a href="#bibliographie">bibliographie</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <img src="photo.jpg" alt="Patrick Everaert">
+      <p class="caption">
+        Patrick Everaert artiste belge né en 1962
+        <br>
+        Vit et travaille à Charleroi, Belgique
+      </p>
+    </div>
+  </body>
+</html>
